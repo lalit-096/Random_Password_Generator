@@ -3,3 +3,21 @@
     padding: 0;
     font-family: Consolas;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(240, 240, 240);
+}
+
+.inputBox {
+    position: relative;
+    width: 450px;
+}
+
+.inputBox h2 {
+    font-size: 28px;
+    color: black;
+}
